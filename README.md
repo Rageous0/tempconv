@@ -1,28 +1,26 @@
 # tempconv
-Simple temperature convert. Converts between °C, °F and K.
+Simple temperature unit converter. Converts between °C, °F and K easily.
 
 
 ### Installation
 ``npm i tempconv``
 
 
-### Simple to use
+### Usage
 ```js
-const { Convert } = require('tempconv');
-console.log(Convert('F', 'K', 1)); // Converts 1 Fahrenheit to Kelvin.
+const { Convert } = require('../lib/index.js');
+console.log(Convert({ from: 'C', to: 'F', value: 1 }); // Returns 33.8.
 ```
 
 
-### Valid usage
-**Shortened unit**
-
-°C, C, °F, F and K.
-
-
-**Full unit**
-
-Celsius, Fahrenheit and Kelvin.
+### Parameters
+``from`` - Unit to convert from, see units below. No default value.
+``to`` - Unit to convert to, see units below. No default value.
+``value`` - What numeric value to convert. No default value.
+``float`` - How many decimals to output in end result. Defailt is 1.
 
 
-### Author
-Rage0us / Rageous0
+### Units
+°C, C, °F, F, K, Celsius, Fahrenheit, Kelvin
+
+**NOTE:** The units are not case sensitive.
