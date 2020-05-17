@@ -1,0 +1,26 @@
+{
+  "name": "tempconv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Temperature",
+    "Converter",
+    "Temp",
+    "Convert",
+    "Units",
+    "Conversion",
+    "Celsius",
+    "Fahrenheit",
+    "Kelvin"
+  ],
+  "author": "Rage0us",
+  "license": "ISC"
+}
